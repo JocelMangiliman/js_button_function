@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <h1> Js Button Function</h1>
+
+    <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "Twinkle, twinkle, little star";
+        }
+        </script>
+        </head>
+        <body>
+        
+        
+        <p id="demo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+             eligendi consequatur reprehenderit nesciunt ipsam a autem doloribus qui, non
+              assumenda aperiam architecto est voluptate
+            s fugit, laborum dolor excepturi blanditiis aut?</p>
+        
+<form>
+
+    <input type = "button" value = "red" onClick="document.bgColor='red'">
+    <input type = "button" value = "orange" onClick="document.bgColor='orange'">
+    <input type = "button" value = "yellow" onClick="document.bgColor='yellow'">
+    <input type = "button" value = "green" onClick="document.bgColor='green'">
+    <input type = "button" value = "blue" onClick="document.bgColor='blue'">
+    <input type = "button" value = "indigo" onClick="document.bgColor='indigo'">
+    <input type = "button" value = "violet" onClick="document.bgColor='violet'">
+
+</form>
+
+    <button type="button" onclick="myFunction()">change text</button>
+    <button type="button" onclick="myFunction()">change title</button>
+    
+    
+    </body>
+</html>
